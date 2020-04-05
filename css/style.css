@@ -25,6 +25,7 @@ img {
     width: 320px;
     /*height: 600px;*/
     background: #fff;
+    box-shadow: 1px 3px 3px 2px #D2F1E2;
 }
 .form .head {
     width: 100%;
@@ -54,7 +55,7 @@ img {
     overflow-x: hidden;
     overflow-y: visible;
     width: 100%;
-    min-height: 700px;
+    min-height: 770px;
     padding: 8%;
     /*background: #fff !important;*/
 }
@@ -76,6 +77,13 @@ img {
 .form .body .form-row input:focus {
     border-bottom: 2px solid black;
     transition: all .3s ease-in-out;
+}
+.form .body .form-row > i {
+    font-size: 30px;
+    position: relative;
+    left: 20px;
+    top: 40px;
+    color: #727475;
 }
 .form .body .form-row button {
     width: 50%;
